@@ -27,7 +27,7 @@
 		<option>Fantasy</option>
 	</select>
 	Plot: <input type="text" name="plot">
-	<input type="submit" value="Call Servlet" />
+	<input type="submit" class="submitMovie" value="Call Servlet" />
 </form>
 
 </body>

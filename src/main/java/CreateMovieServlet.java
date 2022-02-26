@@ -73,7 +73,12 @@ public class CreateMovieServlet extends HttpServlet {
         //Step 7: check if the query had been successfully execute, return �You are successfully registered� via the response
         if (i > 0) {
             PrintWriter writer = response.getWriter();
-            writer.println("<h1>" + "You have successfully created a movie in our database!" + "</h1>");
+
+            writer.println(
+            		"<h1>" + "You have successfully added a movie!" + "</h1>" +
+            		"<a href='http://localhost:8090/DevOpsProject/MovieServlet/dashboard' class='createMovie'>"
+                    + "Next!" + "</a>");
+            
             writer.close(); 
         }
     }
