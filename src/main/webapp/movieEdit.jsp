@@ -64,7 +64,7 @@
 					<label> Plot</label> <input type="text"
 						value="<c:out value='${movie.plot}' />" class="form-control" name="plot">
 				</fieldset>
-				<button type="submit" class="btn btn-success">Save</button>
+				<button type="submit" class="editMovie">Save</button>
 			</div>
 		</div>
 	</div>

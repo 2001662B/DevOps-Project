@@ -20,7 +20,7 @@
 			<div class="container text-left">
 				<!-- Add new movie button redirects to the createMovie.jsp page -->
 				<a href="<%=request.getContextPath()%>/createMovie.jsp"
-					class="btn btn-success">Add New Movie</a>
+					class="btnbtn-success">Add New Movie</a>
 			</div>
 			<br>
 			<!-- Create a table to list out all current movies information -->
